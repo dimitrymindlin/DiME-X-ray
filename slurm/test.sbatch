@@ -6,4 +6,4 @@
 #SBATCH --mail-user=dmindlin@techfak.uni-bielefeld.de
 #SBATCH --mail-type=END
 
-srun test.sh
+srun ../test.sh
