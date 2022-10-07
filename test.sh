@@ -22,7 +22,7 @@ QUERYLABEL=31
 TARGETLABEL=-1
 IMAGESIZE=128  # dataset shape
 
-python -W ignore ../main.py $MODEL_FLAGS $SAMPLE_FLAGS \
+python -W ignore main.py $MODEL_FLAGS $SAMPLE_FLAGS \
   --query_label $QUERYLABEL --target_label $TARGETLABEL \
   --output_path $OUTPUT_PATH \
   --start_step $S --dataset 'CelebA' \
