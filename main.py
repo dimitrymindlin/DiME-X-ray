@@ -46,7 +46,8 @@ from core.classifier.densenet import ClassificationModel
 
 import matplotlib
 matplotlib.use('Agg')  # to disable display
-
+print("Cuda Available???")
+print(torch.cuda.is_available())
 # =======================================================
 # =======================================================
 # Functions
